@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>綜合案例-註冊頁面</title>
+</head>
+
+<body>
+    <h4>青春不常在，抓緊談戀愛</h4>
+    <table width="600">
+        <!--第一行-->
+        <tr>
+            <td>性別：</td>
+            <td>
+                <input type="radio" name="sex" id="nan"> <label for="nan"> <img src="images/man.jpg"> </label> 男
+                <!--radio只能單選 圓形小圈圈-->
+                <!--id="nan" for="nan"讓點選可以點在圖片 不用侷限在圈圈內-->
+                <input type="radio" name="sex" id="nv"> <label for="nv"> <img src="images/woman.jpg"> 女 </label>
+                <!--image尚未用好-->
+            </td>
+        </tr>
+        <!--第二行-->
+        <tr>
+            <td>生日：</td>
+            <td>
+                <select>
+                    <option>--請選擇年份--</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option> <!--select是選單 option是選項名稱-->
+                </select>
+                <select>
+                    <option>--請選擇月份--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <select>
+                    <option>--請選擇日期--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </td>
+        </tr>
+        <!--第三行-->
+        <tr>
+            <td>所在地區：</td>
+            <td> <input type="text" value="台灣"> </td> <!--讓用戶自行輸入文字（type）-->
+        </tr>
+        <!--第四行-->
+        <tr>
+            <td>婚姻狀況：</td>
+            <td><input type="radio" name="marry" checked="checked">未婚
+                <input type="radio" name="marry">已婚
+                <input type="radio" name="marry">離婚
+            </td>
+        </tr>
+        <!--第五行-->
+        <tr>
+            <td>學歷：</td>
+            <td> <input type="text" value="學士後"> </td>
+        </tr>
+        <!--第六行-->
+        <tr>
+            <td>喜歡的類型：</td>
+            <td><input type="checkbox" name="love"> 漂亮的
+                <input type="checkbox" name="love"> 可愛的
+                <input type="checkbox" name="love"> 小鮮肉
+                <input type="checkbox" name="love"> 老臘肉
+                <input type="checkbox" name="love" checked="checked"> 都喜歡 <!--checkbox可以複選 小正方形框框-->
+            </td>
+        </tr>
+        <!--第七行-->
+        <tr>
+            <td>自我介紹：</td>
+            <td>
+                <textarea>個人簡介</textarea>
+            </td>
+        </tr>
+        <!--第八行-->
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="免費註冊"> <!--submit為提交按鈕-->
+            </td>
+        </tr>
+        <!--第九行-->
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" checked="checked"> 我同意註冊條款和會員加入標準
+            </td>
+        </tr>
+        <!--第十行-->
+        <tr>
+            <td></td>
+            <td>
+                <a href="#">我是會員，立即登入</a>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <h5>我承諾</h5>
+                <ul>
+                    <li>年滿18歲、單身</li>
+                    <li>抱著嚴肅的態度</li>
+                    <li>真誠尋找另一半</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
